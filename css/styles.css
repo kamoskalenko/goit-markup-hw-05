@@ -708,8 +708,8 @@ button {
   height: 100%;
   z-index: 999;
 
-  /* opacity: 0;
-  pointer-events: none; */
+  opacity: 0;
+  pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -917,21 +917,11 @@ button {
   fill: #f4f4fd;
   border: none;
 }
-/* .input-check-icon {
-  width: 100%;
-  height: 100%; */
-/* position: absolute; */
-/* fill: transparent;
-} */
 
 .input-check-link {
   text-decoration: underline;
 
   color: #4d5ae5;
-  /* font-size: 12px;
-  font-weight: 400;
-  line-height: 14px;
-  letter-spacing: 0.48px; */
 }
 
 /* Button */
@@ -959,7 +949,7 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.order-button:hover,
+.order-button:focus {
   background-color: #404bbf;
 }
